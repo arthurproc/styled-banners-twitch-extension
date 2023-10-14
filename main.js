@@ -40,3 +40,9 @@ const loadBanner = async () => {
 }
 
 loadBanner();
+
+window.Twitch.ext.onAuthorized(function(auth) {
+  console.log('The JWT that will be passed to the EBS is', auth.token);
+  console.log('The channel ID is', auth.channelId);
+  console.log('Auth', auth);
+});

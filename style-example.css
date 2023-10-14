@@ -2,27 +2,18 @@
   --twitch-background-color-dark: #0E0E10;
 }
 
-html {
-  height: 300px;
-}
-
 body {
   font-family: 'Arial', sans-serif;
   transition: background-color 0.3s ease;
   background-color: #ffffff;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #f7f7f7;
-  margin: 20px auto;
+  height: 400px;
 }
 
 .banner-wrapper {
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
 
 .banner-image-wrapper {
